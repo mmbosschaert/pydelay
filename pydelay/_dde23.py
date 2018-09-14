@@ -29,7 +29,7 @@ warnings.filterwarnings(action = 'ignore',
                         message = 'BaseException.message has been deprecated')
 
 import numpy as np
-from scipy import weave
+import weave
 from scipy.interpolate import splrep, splev, spalde
 import math
 import sys
